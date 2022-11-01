@@ -16,9 +16,9 @@
             Bienvenido a GTA Americas, un mundo dinámico y en constante evolución para hasta 120 jugadores por ciudad, donde puedes pasar de ser una persona que hace respetar el orden o convertirse en el capo de su propio imperio criminal.
           </p>
 
-          <button to="/download" class="uppercase !py-3">
+          <Link to="/download">
             Empezar a jugar
-          </button>
+          </Link>
         </div>
 
         <div class="relative">
@@ -31,3 +31,9 @@
     </div>
   </header>
 </template>
+<script>
+import Link from "@/components/ui/Link";
+export default {
+  components: {Link}
+}
+</script>

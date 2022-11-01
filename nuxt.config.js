@@ -4,6 +4,7 @@ export default {
 		title: 'GTA Americas - GTA V Roleplay Network',
 		meta: [
 			{ charset: 'utf-8' },
+			{ name: 'viewport', content: 'width=device-width, initial-scale=1' },
 		]
 	},
 	css: [
@@ -15,6 +16,7 @@ export default {
 	modules: [
 		'@nuxtjs/tailwindcss',
 		'@nuxtjs/gtm',
+		'@nuxtjs/google-fonts'
 	],
 	buildModules: [
 		"@nuxtjs/svg"
@@ -23,5 +25,10 @@ export default {
 	components: true,
 	gtm: {
 		id: 'GTM-5PJJ4XZ'
+	},
+	googleFonts: {
+		families: {
+			Inter: true
+		}
 	}
 }

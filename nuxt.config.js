@@ -13,11 +13,15 @@ export default {
 		'@/assets/css/scrollbar.css'
 	],
 	modules: [
-		'@nuxtjs/tailwindcss'
+		'@nuxtjs/tailwindcss',
+		'@nuxtjs/gtm',
 	],
 	buildModules: [
 		"@nuxtjs/svg"
 	],
 	// This will automatically load components from `~/components`
 	components: true,
+	gtm: {
+		id: 'GTM-5PJJ4XZ'
+	}
 }

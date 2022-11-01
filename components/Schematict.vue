@@ -13,9 +13,9 @@
               Unas de las ciudades mas famosas que definieron un género de la saga original de Grand Theft Auto. Actualizados para la nueva generación con mejoras a todos los niveles, y muchas cosas más que harán que estos mundos tan queridos cobren vida con niveles de detalle inéditos.
             </p>
 
-            <Button to="/features/world" class="uppercase">
+            <v-button to="/features/world" size="sm">
               Más información
-            </Button>
+            </v-button>
           </div>
 
           <div class="order-1 md:order-2">
@@ -43,9 +43,9 @@
               <a href="https://vanillaworks.weebly.com/" target="_blank" class="text-white underline">VanillaWorks</a> es una comunidad de artistas, add-on converters y modelers, que crean autos <span class="text-white">lore-friendly</span> y liveries para la comunidad. Con VanillaWorks contamos una gran variedad de nuevos vehículos, mejoras y modificaciones exclusivas.
             </p>
 
-            <Button to="/features/vehicles" class="uppercase">
+            <v-button to="/features/vehicles" size="sm">
               Ver colección
-            </Button>
+            </v-button>
           </div>
         </div>
       </div>
@@ -88,9 +88,9 @@
               Puedes acceder a <a href="https://gta-americas.com/eyefind" class="text-white underline">Eyefind.info</a> desde cualquier computadora de Los Santos o desde tu celular personal. En esta página encontraras muchas secciones como sitios para noticias, servicios, compras, financias, como también ver tu correo personal y más.
             </p>
 
-            <Button to="/eyefind" class="uppercase">
+            <v-button to="/eyefind" size="sm">
               Visitar Eyefind.info
-            </Button>
+            </v-button>
           </div>
         </div>
       </div>

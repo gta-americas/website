@@ -24,9 +24,9 @@
         </div>
 
         <div class="hidden md:flex items-center px-5 h-full border-l border-white/[.2]">
-          <Button to="/login" size="sm" class="uppercase">
+          <v-button to="/login" color="secondary" size="sm">
             Iniciar sesión
-          </Button>
+          </v-button>
         </div>
 
         <div v-if="false">

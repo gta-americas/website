@@ -22,7 +22,10 @@ export default {
 		"@nuxtjs/svg"
 	],
 	// This will automatically load components from `~/components`
-	components: true,
+	components: [
+		'~/components',
+		{ path: '~/components/ui/', prefix: 'v-' }
+	],
 	gtm: {
 		id: 'GTM-5PJJ4XZ'
 	},

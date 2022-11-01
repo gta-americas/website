@@ -24,9 +24,9 @@
           </div>
 
           <div>
-            <Button href="https://discord.gg/qfTs5DWR9q" target="_blank" class="w-full mb-4">
+            <v-button href="https://discord.gg/qfTs5DWR9q" target="_blank" size="sm" class="mb-3" block>
               Aceptar Invitación
-            </Button>
+            </v-button>
 
             <div class="text-center">
               <span @click="toggleModal" class="text-white text-sm font-medium border-b border-transparent hover:border-white transition duration-300 ease-out cursor-pointer">

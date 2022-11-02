@@ -12,3 +12,9 @@
     </div>
   </div>
 </template>
+
+<style>
+:root {
+  --swiper-theme-color: #fff;
+}
+</style>

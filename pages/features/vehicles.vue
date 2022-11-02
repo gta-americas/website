@@ -78,6 +78,7 @@
     </section>
 
     <Collection/>
+    <VanillaWorks/>
   </div>
 </template>
 

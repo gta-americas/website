@@ -25,8 +25,8 @@
             Bienvenido a GTA Americas, un mundo dinámico y en constante evolución para hasta 120 jugadores por ciudad, donde puedes pasar de ser una persona que hace respetar el orden o convertirse en el capo de su propio imperio criminal.
           </p>
 
-          <v-button to="/download">
-            Empezar a jugar
+          <v-button @click="openDiscord">
+            Reservar cuenta
           </v-button>
         </div>
 
@@ -50,6 +50,7 @@ export default {
   },
   methods: {
     openDiscord() {
+      this.$gtm.push({ event: 'Discord' })
       window.open('https://discord.gg/qfTs5DWR9q', "_blank")
     }
   }

@@ -51,7 +51,6 @@ export default {
   methods: {
     openDiscord() {
       this.$gtm.push({ event: 'Discord' })
-      window.location.href = 'https://gta-americas.com/?source=discord'
       window.open('https://discord.gg/qfTs5DWR9q', "_blank")
     }
   }

@@ -24,7 +24,7 @@
           </div>
 
           <div>
-            <v-button @click="openDiscord" size="sm" class="mb-3" block>
+            <v-button href="https://discord.gg/qfTs5DWR9q" target="_blank" size="sm" class="mb-3" block>
               Aceptar Invitación
             </v-button>
 
@@ -54,11 +54,6 @@ export default {
   methods: {
     toggleModal() {
       this.isOpen = !this.isOpen
-    },
-    openDiscord() {
-      this.$gtm.push({ event: 'Discord' })
-      window.location.href = 'https://gta-americas.com/?source=discord'
-      window.open('https://discord.gg/qfTs5DWR9q', "_blank")
     }
   }
 }

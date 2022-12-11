@@ -45,7 +45,7 @@
 export default {
   data () {
     return {
-      announcement: 'Nuestras posiciones para LSPD, EMS y Gangs ya se encuentran disponible. Por favor revisa nuestro Discord.'
+      announcement: '¡Beta Season 2 ha comenzado! Click para ingresar a aplicar en nuestro programa de beta testers'
     }
   },
   methods: {
